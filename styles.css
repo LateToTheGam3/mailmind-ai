@@ -1,0 +1,23 @@
+.mailmind-btn {
+    background: #c8f542;
+    color: #0a0a0a;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    margin-left: 8px;
+    transition: background 0.2s;
+}
+
+.mailmind-btn:hover {
+    background: #d6ff55;
+}
+
+.mailmind-btn:disabled {
+    background: #333;
+    color: #666;
+    cursor: not-allowed;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 300px;
+            padding: 20px;
+            font-family: 'Segoe UI', sans-serif;
+            background: #0a0a0a;
+            color: #e0e0e0;
+        }
+
+        h2 {
+            font-size: 15px;
+            color: #c8f542;
+            margin-bottom: 4px;
+        }
+
+        p {
+            font-size: 11px;
+            color: #555;
+            margin-bottom: 16px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            background: #111;
+            border: 1px solid #222;
+            color: #ddd;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #c8f542;
+            color: #000;
+            font-weight: 700;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+
+        #status {
+            font-size: 11px;
+            color: #c8f542;
+            margin-top: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>✦ MailMind AI</h2>
+    <p>Enter your Anthropic API key to activate</p>
+    <input type="password" id="apiKey" placeholder="sk-ant-..." />
+    <button id="save">Save API Key</button>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
